@@ -4,7 +4,7 @@ __Table of content__
 
 - [Download](#download)
 - [Install](#install)
-- [Installed package](#installed package)
+- [Installed package](#installed-package)
 
 ## Download
 
