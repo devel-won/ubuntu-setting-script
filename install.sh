@@ -30,6 +30,5 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 
-
-
+https://hiseon.me/linux/ubuntu/install-docker/ 이거 참고하기
 
