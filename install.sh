@@ -27,7 +27,7 @@ sudo apt-get install -y \
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
-sudo apt-get install -y docker-ce
+sudo apt-get update && sudo apt-get install -y docker-ce
 
 sudo usermod -aG docker $USER
 
@@ -39,4 +39,8 @@ distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
 
 curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
 
+sudo systemctl restart docker
 
+sudo apt-get update && sudo apt-get install -y nvidia-docker2
+
+######
