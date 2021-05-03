@@ -57,7 +57,15 @@ sudo apt-get install sbt
 
 ####### install intellij ###############################
 
-sudo cp -r pkg/idea-IC-192.7142.36 /opt
-bash /opt/idea-IC-192.7142.36/bin/idea.sh
+# intellij 압축 파일을 pkg에 넣고 이름 수정 후 실행
+#unzip pkg/idea-IC-192.7142.36.zip -d pkg/
+#sudo mv pkg/idea-IC-192.7142.36 /opt
+#bash /opt/idea-IC-192.7142.36/bin/idea.sh
 
-####
+####### install pycharm ################################
+
+# pycharm 압축 파일을 pkg에 넣고 이름 수정 후 실행
+#unzip pkg/pycharm-community-2021.1.1.zip -d pkg/
+#sudo mv pkg/pycharm-community-2021.1.1 /opt
+# /opt/pycharm-community-2021.1.1/bin/pycharm.sh 실행
+# toos -> Create Desktop Entry... 클릭해서 바로가기 아이콘 생성
