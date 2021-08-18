@@ -12,7 +12,6 @@ __Table of content__
 TODO
 
 
-
 ## Install
 
 TODO
@@ -21,7 +20,6 @@ TODO
 ## Installed package
 
 TODO
-
 
 
 TODO - Using example mdcode : https://github.com/markdown-it/markdown-it/edit/master/README.md
